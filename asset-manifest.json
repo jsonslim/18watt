@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/18watt/static/css/main.0ab84719.css",
-    "main.js": "/18watt/static/js/main.bea3ae08.js",
+    "main.js": "/18watt/static/js/main.4ccfcb44.js",
     "static/media/portfolio.gif": "/18watt/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/18watt/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/18watt/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -65,10 +65,10 @@
     "static/media/talksCardBackAlt.svg": "/18watt/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/18watt/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.0ab84719.css.map": "/18watt/static/css/main.0ab84719.css.map",
-    "main.bea3ae08.js.map": "/18watt/static/js/main.bea3ae08.js.map"
+    "main.4ccfcb44.js.map": "/18watt/static/js/main.4ccfcb44.js.map"
   },
   "entrypoints": [
     "static/css/main.0ab84719.css",
-    "static/js/main.bea3ae08.js"
+    "static/js/main.4ccfcb44.js"
   ]
 }
