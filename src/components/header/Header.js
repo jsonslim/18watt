@@ -4,7 +4,7 @@ import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
-import logo from '../../assets/images/logo240x100.png';
+import logo from "../../assets/images/logo240x100.png";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -46,16 +46,16 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                {/* <NavLink
-                  to="/education"
+                <NavLink
+                  to="/18watt"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  Education
-                </NavLink> */}
+                  18watt
+                </NavLink>
               </li>
               {/* <li>
                 <NavLink
