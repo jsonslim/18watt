@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/18watt/static/css/main.0ab84719.css",
-    "main.js": "/18watt/static/js/main.be1d0f85.js",
+    "main.js": "/18watt/static/js/main.b58de05f.js",
     "static/media/portfolio.gif": "/18watt/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/18watt/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/18watt/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -28,6 +28,7 @@
     "static/media/ibm_logo.png": "/18watt/static/media/ibm_logo.8204bba7daa4eedf644b.png",
     "static/media/fa-brands-400.woff": "/18watt/static/media/fa-brands-400.dc957891d535aa198135.woff",
     "static/media/codeInLogo.png": "/18watt/static/media/codeInLogo.be1b6b9bacd5f2fb1c7e.png",
+    "static/media/18watt_logo.png": "/18watt/static/media/18watt_logo.4efde2fd23e3286677d4.png",
     "static/media/stanford_logo.png": "/18watt/static/media/stanford_logo.de5f29dece094f7bec60.png",
     "static/media/animated_logo.svg": "/18watt/static/media/animated_logo.abd0b20ec83cb1f60d42.svg",
     "static/media/fa-solid-900.woff2": "/18watt/static/media/fa-solid-900.4a83f63fd7dd55c4ca85.woff2",
@@ -65,10 +66,10 @@
     "static/media/talksCardBackAlt.svg": "/18watt/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/18watt/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
     "main.0ab84719.css.map": "/18watt/static/css/main.0ab84719.css.map",
-    "main.be1d0f85.js.map": "/18watt/static/js/main.be1d0f85.js.map"
+    "main.b58de05f.js.map": "/18watt/static/js/main.b58de05f.js.map"
   },
   "entrypoints": [
     "static/css/main.0ab84719.css",
-    "static/js/main.be1d0f85.js"
+    "static/js/main.b58de05f.js"
   ]
 }
