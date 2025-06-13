@@ -2,7 +2,7 @@
   "private": true,
   "name": "18watt",
   "version": "0.1.0",
-  "homepage": "https://jsonslim.github.io/",
+  "homepage": "https://jsonslim.github.io/18watt/",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
