@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Sergey's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate engineer crafting innovative products and systems. With a knack for turning ideas into reality, I help creative minds express their vision using cutting-edge technology.",
   og: {
     title: "Sergey Tarasov Portfolio",
     type: "website",
@@ -20,10 +20,10 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Sergey Tarasov",
-  logo_name: "18watt",
+  logo_name: "18 Watt",
   nickname: "",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "A passionate engineer crafting innovative products and systems. I help creative minds express their vision using cutting-edge technology.",
   resumeLink:
     "https://drive.google.com/file/d/1QvkUeol8n_TTtiuopXiDYuzrOsVZgtbp/view?usp=drive_link",
   portfolio_repository: "https://github.com/jsonslim?tab=repositories",
@@ -87,32 +87,40 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Data Science & AI",
+      title: "Hardware development",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Developing firmware",
+        "⚡ Schematic design",
+        "⚡ 3D product modelling",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "Arduino",
+          fontAwesomeClassname: "logos-arduino",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Blender",
+          fontAwesomeClassname: "simple-icons:blender",
           style: {
             backgroundColor: "white",
             color: "#D00000",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "EasyEda",
+          fontAwesomeClassname: "simple-icons:easyeda",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "C++",
+          fontAwesomeClassname: "logos-c",
           style: {
             backgroundColor: "transparent",
           },
@@ -126,8 +134,8 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "Kikad",
+          imageSrc: "KiCad_logo.png",
         },
       ],
     },
@@ -155,13 +163,6 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -184,100 +185,8 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
-        },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
-      ],
-    },
-    {
-      title: "Cloud Infra-Architecture",
-      fileName: "CloudInfraImg",
-      skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
-      ],
-      softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
-        {
-          skillName: "Firebase",
-          fontAwesomeClassname: "simple-icons:firebase",
-          style: {
-            color: "#FFCA28",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          fontAwesomeClassname: "simple-icons:postgresql",
-          style: {
-            color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
+          skillName: "FastApi",
+          imageSrc: "fastApi_logo.png"
         },
       ],
     },
@@ -285,18 +194,11 @@ const skills = {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
+        "⚡ Designing attractive user interfaces for embedded and web applications",
         "⚡ Customizing logo designs and building logos from scratch",
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -305,17 +207,14 @@ const skills = {
           },
         },
         {
-          skillName: "Adobe Illustrator",
-          fontAwesomeClassname: "simple-icons:adobeillustrator",
-          style: {
-            color: "#FF7C00",
-          },
+          skillName: "LVGL",
+          imageSrc: "lvgl_logo.png"
         },
         {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
+          skillName: "React",
+          fontAwesomeClassname: "simple-icons:react",
           style: {
-            color: "#000000",
+            color: "#61DAFB",
           },
         },
       ],
@@ -730,13 +629,21 @@ const servicesHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
+// Services Page
+const wattHeader = {
+  title: "18 Watt",
+  description:
+    "Welcome to 18 Watt, where creativity meets engineering. I design and build custom solutions that enable digital artists to unleash their full potential—from hardware MIDI controllers to web-based creative tools.",
+  avatar_image_path: "projects_image.svg",
+};
+
 // Contact Page
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I’m available on the following social media platforms. Feel free to send me a message on any of them or use the form below.",
   },
   blogSection: {
     title: "Blogs",
@@ -777,4 +684,5 @@ export {
   publications,
   contactPageData,
   servicesHeader,
+  wattHeader,
 };

@@ -21,12 +21,12 @@ class Header extends Component {
     const theme = this.props.theme;
     const link = settings.isSplash ? "/splash" : "home";
     return (
-      <Fade duration={300} distance="20  0px">
+      <>
         <SeoHeader />
         <div>
           <header className="header">
             <NavLink to={link} tag={Link} className="logo">
-              <img src={logo} alt="18 Watt" />
+              {/* <img src={logo} alt="18 Watt" /> */}
             </NavLink>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" htmlFor="menu-btn">
@@ -47,14 +47,14 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/18watt"
+                  to="/eighteenwatt"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
                   onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
                   onMouseOut={(event) => onMouseOut(event)}
                 >
-                  18watt
+                  18 Watt
                 </NavLink>
               </li>
               {/* <li>
@@ -108,7 +108,7 @@ class Header extends Component {
             </ul>
           </header>
         </div>
-      </Fade>
+      </>
     );
   }
 }

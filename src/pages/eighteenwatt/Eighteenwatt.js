@@ -6,13 +6,14 @@ import PublicationCard from "../../components/publicationsCard/PublicationCard.j
 import Button from "../../components/button/Button.js";
 import TopButton from "../../components/topButton/TopButton.js";
 import { Fade } from "react-reveal";
-import { servicesHeader } from "../../portfolio.js";
+import { wattHeader } from "../../portfolio.js";
 import ServicesData from "../../shared/opensource/services.json";
+import bg1 from "../../assets/images/18w_1.jpg";
 
-import "./Services.js";
-import ProjectsImg from "./ServicesImg.js";
+import "./Eighteenwatt.css";
+import ProjectsImg from "./EighteenwattImg.js";
 
-class Services extends Component {
+class Eighteenwatt extends Component {
   render() {
     const theme = this.props.theme;
     return (
@@ -22,24 +23,21 @@ class Services extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
-                {/* <img
-											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <ProjectsImg theme={theme} />
+                {/* <ProjectsImg theme={theme} /> */}
+                <img src={bg1} alt="bg1"></img>
               </div>
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
                   style={{ color: theme.text }}
                 >
-                  {servicesHeader.title}
+                  {wattHeader.title}
                 </h1>
                 <p
                   className="projects-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {servicesHeader["description"]}
+                  {wattHeader["description"]}
                 </p>
               </div>
             </div>
@@ -58,4 +56,4 @@ class Services extends Component {
   }
 }
 
-export default Services;
+export default Eighteenwatt;
