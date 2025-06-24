@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sergeytarasovshow/static/css/main.14c01eed.css",
-    "main.js": "/sergeytarasovshow/static/js/main.3551ea02.js",
+    "main.css": "/sergeytarasovshow/static/css/main.af00b49c.css",
+    "main.js": "/sergeytarasovshow/static/js/main.51f7f12b.js",
     "static/media/portfolio.gif": "/sergeytarasovshow/static/media/portfolio.ed6c89f1485f23014ebd.gif",
     "static/media/fa-solid-900.svg": "/sergeytarasovshow/static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "/sergeytarasovshow/static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
@@ -66,11 +66,11 @@
     "static/media/googleAssistant.svg": "/sergeytarasovshow/static/media/googleAssistant.1c2312558eb2e5f04a45.svg",
     "static/media/talksCardBackAlt.svg": "/sergeytarasovshow/static/media/talksCardBackAlt.018d87225926eee9ccc3.svg",
     "static/media/talksCardBack.svg": "/sergeytarasovshow/static/media/talksCardBack.7dc8695e60efbc2baab8.svg",
-    "main.14c01eed.css.map": "/sergeytarasovshow/static/css/main.14c01eed.css.map",
-    "main.3551ea02.js.map": "/sergeytarasovshow/static/js/main.3551ea02.js.map"
+    "main.af00b49c.css.map": "/sergeytarasovshow/static/css/main.af00b49c.css.map",
+    "main.51f7f12b.js.map": "/sergeytarasovshow/static/js/main.51f7f12b.js.map"
   },
   "entrypoints": [
-    "static/css/main.14c01eed.css",
-    "static/js/main.3551ea02.js"
+    "static/css/main.af00b49c.css",
+    "static/js/main.51f7f12b.js"
   ]
 }
