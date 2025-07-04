@@ -81,8 +81,8 @@
       "id": "R_kgDOGcPKSQ",
       "name": "VR Ambilight",
       "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "A solution for Pico 4 HMD enhansing comfort and increasing pogrujenie",
+      "url": "https://github.com/jsonslim/VR-ambilight",
+      "description": "A solution for Pico 4 HMD that enhanses comfort and increases immersion",
       "isFork": false,
       "languages": [
         {
@@ -99,7 +99,7 @@
       "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
       "name": "Whammy Maximizer",
       "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
+      "url": "https://github.com/jsonslim/Whammy-Maximizer",
       "description": "A Max for life plugin automating the guitar pedal Digitech Whammy",
       "isFork": false,
       "languages": [

@@ -13,16 +13,14 @@ class Impressum extends Component {
         <Header theme={theme} />
         <div>
           <h1>Impressum</h1>
-
-          <p>Angaben gemäß § 5 TMG:</p>
           <p>
             Sergey Tarasov
             <br />
             Freiberuflicher IT-Dienstleister
             <br />
-            Musterstraße 123
+            Karlsplatz 4
             <br />
-            04109 Leipzig
+            89073 Ulm
             <br />
             Deutschland
           </p>
@@ -36,17 +34,10 @@ class Impressum extends Component {
             WhatsApp: +49 176 31233953
           </p>
 
-          <p>Umsatzsteuer-ID:</p>
-          <p>(Falls vorhanden: DE123456789)</p>
+          <p>Steuernummer: 2888040004680 (Finanzamt Ulm)</p>
 
-          <p>
-            Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-          </p>
-          <p>
-            Sergey Tarasov
-            <br />
-            Anschrift wie oben
-          </p>
+          <p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</p>
+          <p>Sergey Tarasov, Anschrift wie oben</p>
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
       </>

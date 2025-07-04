@@ -43,11 +43,6 @@ class Eighteenwatt extends Component {
             </div>
           </Fade>
         </div>
-        <div className="repo-cards-div-main">
-          {ServicesData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
-          })}
-        </div>
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

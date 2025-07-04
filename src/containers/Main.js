@@ -12,6 +12,8 @@ import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 import Agb from "../pages/agb/Agb.js";
 import Impressum from "../pages/impressum/Impressum.js";
+import Links from "../pages/links/Links.js";
+import Datenschutz from "../pages/datenschutz/datenschutz.js";
 
 export default class Main extends Component {
   render() {
@@ -80,7 +82,26 @@ export default class Main extends Component {
 
           <Route
             path="/impressum"
-            render={(props) => <Impressum {...props} theme={this.props.theme} />}
+            render={(props) => (
+              <Impressum {...props} theme={this.props.theme} />
+            )}
+          />
+
+          <Route
+            path="/datenschutz"
+            render={(props) => (
+              <Datenschutz {...props} theme={this.props.theme} />
+            )}
+          />
+
+          <Route
+            path="/links-tech"
+            render={(props) => <Links {...props} theme={this.props.theme} />}
+          />
+
+          <Route
+            path="/links-art"
+            render={(props) => <Links {...props} theme={this.props.theme} />}
           />
 
           <Route

@@ -5,9 +5,13 @@
       "name": "Arduino development",
       "createdAt": "2023-04-13T04:18:19Z",
       "url": "https://github.com/...",
-      "description": "I will build a great product for you using ESP32(fix)",
+      "description": "I will make an arduino ESP32 project from your idea",
       "isFork": false,
       "languages": [
+        {
+          "name": "arduino",
+          "iconifyClass": "logos-arduino"
+        },
         {          
           "name": "C++",
           "iconifyClass": "logos-c"
@@ -16,20 +20,19 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "WEB UI Design for your hardware project",
+      "name": "WEB UI Design",
       "createdAt": "2022-03-13T20:41:33Z",
       "url": "https://github.com/...",
-      "description": "...",
+      "description": "I will make a WEB UI for your ESP32 project",
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
+          "name": "Javascript",
           "iconifyClass": "logos-javascript"
         },
         {
-          
-          "name": "C++",
-          "iconifyClass": "logos-c"
+          "name": "React",
+          "iconifyClass": "logos-react"
         }
       ]
     },
@@ -38,9 +41,27 @@
       "name": "LVGL UI development",
       "createdAt": "2021-01-01T08:31:51Z",
       "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "...",
+      "description": "I will make a UI for your ESP32 display module using LVGL",
       "isFork": false,
       "languages": [
+        {
+          "name": "LVGL",
+          "iconifyClass": "logos-LVGL"
+        }
+      ]
+    },
+    {
+      "id": "R_kgDOG0_8uQ",
+      "name": "Consulting",
+      "createdAt": "2022-02-11T14:50:20Z",
+      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
+      "description": "Book an online meeting with me, where we resolve your project issues. I’ll guide you on how to organize your project for solid progress, and assist in choosing electronic components, parts, tools, libraries, and more.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "arduino",
+          "iconifyClass": "logos-arduino"
+        },
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"

@@ -45,18 +45,6 @@ class Header extends Component {
                   Home
                 </NavLink>
               </li>
-              <li>
-                <NavLink
-                  to="/eighteenwatt"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  18 Watt
-                </NavLink>
-              </li>
               {/* <li>
                 <NavLink
                   to="/experience"
@@ -91,6 +79,18 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Services
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/eighteenwatt"
+                  tag={Link}
+                  activeStyle={{ fontWeight: "bold" }}
+                  style={{ color: theme.text }}
+                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+                  onMouseOut={(event) => onMouseOut(event)}
+                >
+                  18 Watt
                 </NavLink>
               </li>
               <li>

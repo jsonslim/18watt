@@ -186,7 +186,7 @@ const skills = {
         },
         {
           skillName: "FastApi",
-          imageSrc: "fastApi_logo.png"
+          imageSrc: "fastApi_logo.png",
         },
       ],
     },
@@ -208,7 +208,7 @@ const skills = {
         },
         {
           skillName: "LVGL",
-          imageSrc: "lvgl_logo.png"
+          imageSrc: "lvgl_logo.png",
         },
         {
           skillName: "React",
@@ -598,11 +598,11 @@ const publicationsHeader = {
 const publications = {
   data: [
     {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
+      id: "neurodrive open source muscle stimulator",
+      name: "NeuroDrive",
       createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
+      description: "An open source muscle stimulator for VR",
+      url: "https://hackaday.io/project/175991-neurodrive",
     },
     {
       id: "mdp-diffusion",
