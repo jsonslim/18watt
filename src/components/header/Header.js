@@ -2,9 +2,8 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { settings } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
-import logo from "../../assets/images/logo240x100.png";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -83,7 +82,7 @@ class Header extends Component {
               </li>
               <li>
                 <NavLink
-                  to="/eighteenwatt"
+                  to="/18watt"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}

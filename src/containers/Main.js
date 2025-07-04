@@ -49,7 +49,7 @@ export default class Main extends Component {
             )}
           />
           <Route
-            path="/eighteenwatt"
+            path="/18watt"
             render={(props) => (
               <Eighteenwatt {...props} theme={this.props.theme} />
             )}
