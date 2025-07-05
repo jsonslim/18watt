@@ -69,8 +69,34 @@
       ]
     },
     {
+      "id": "R_kgDOG0_83Q",
+      "name": "MVP Development",
+      "createdAt": "2022-02-11T14:50:20Z",
+      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
+      "description": "I will turn your idea into a functional MVP. I’ll analyze possible challenges and suggest efficient and practical solutions.",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "arduino",
+          "iconifyClass": "logos-arduino"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {          
+          "name": "C++",
+          "iconifyClass": "logos-c"
+        }
+      ]
+    },
+    {
       "id": "R_kgDOG0_8uQ",
-      "name": "Music devices modifications",
+      "name": "Device modifications",
       "createdAt": "2022-02-11T14:50:20Z",
       "url": "https://github.com/ashutosh1919/react-awesome-shapes",
       "description": "Take a look at the list of device mods I provide",

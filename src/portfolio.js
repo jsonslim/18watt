@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate engineer crafting innovative products and systems. I help creative minds express their vision using cutting-edge technology.",
   resumeLink:
-    "https://drive.google.com/file/d/1QvkUeol8n_TTtiuopXiDYuzrOsVZgtbp/view?usp=drive_link",
+    "https://drive.google.com/file/d/1rHltg59ofjR62RYwYQFx8gK_Xh8jAiJS/view?usp=drive_link",
   portfolio_repository: "https://github.com/jsonslim?tab=repositories",
   githubProfile: "https://github.com/jsonslim",
 };
@@ -585,7 +585,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "I specialize in building hardware-software solutions — from embedded systems with ESP32 to full-stack web applications using React, Node.js, REST APIs, Websockets, etc. My focus is on creating practical, connected products.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -629,11 +629,11 @@ const servicesHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-// Services Page
+// 18watt description Page
 const wattHeader = {
   title: "18 Watt",
   description:
-    "Welcome to 18 Watt, where creativity meets engineering. I design and build custom solutions that enable digital artists to unleash their full potential—from hardware MIDI controllers to web-based creative tools.",
+    "    Welcome to 18 Watt – where creativity meets engineering.  We help artists and creators bring their ideas to life. Using modern tech, we build software and hardware that empower your creative work. Whether you're a visual artist, music producer, a band, or an independent creator on a budget — you deserve tools that work for you.",
   avatar_image_path: "projects_image.svg",
 };
 
