@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Sergey's Portfolio",
   description:
-    "A passionate engineer crafting innovative products and systems. With a knack for turning ideas into reality, I help creative minds express their vision using cutting-edge technology.",
+    "A passionate engineer crafting innovative products and systems.",
   og: {
     title: "Sergey Tarasov Portfolio",
     type: "website",
@@ -22,8 +22,7 @@ const greeting = {
   title: "Sergey Tarasov",
   logo_name: "18 Watt",
   nickname: "",
-  subTitle:
-    "A passionate engineer crafting innovative products and systems. I help creative minds express their vision using cutting-edge technology.",
+  subTitle: "A passionate engineer crafting innovative products and systems.",
   resumeLink:
     "https://drive.google.com/file/d/1rHltg59ofjR62RYwYQFx8gK_Xh8jAiJS/view?usp=drive_link",
   portfolio_repository: "https://github.com/jsonslim?tab=repositories",
@@ -78,7 +77,7 @@ const socialMediaLinks = [
   // },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/nabor_tech/",
+    link: "https://www.instagram.com/18watt",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -585,7 +584,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "I specialize in building hardware-software solutions — from embedded systems with ESP32 to full-stack web applications using React, Node.js, REST APIs, Websockets, etc. My focus is on creating practical, connected products.",
+    "From custom electronics to full-stack web apps — I make hardware and software work together.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -605,11 +604,11 @@ const publications = {
       url: "https://hackaday.io/project/175991-neurodrive",
     },
     {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
+      id: "unihiker",
+      name: "Shape your Unihiker ",
       createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
+      description: "A maker challenge from DF Robot in which I designed a nice enclosure for the Unihiker computer",
+      url: "https://community.dfrobot.com/makelog-315063.html",
     },
     {
       id: "consistency-models",
@@ -625,7 +624,7 @@ const publications = {
 const servicesHeader = {
   title: "Services",
   description:
-    "My services use of vast variety of latest technology tools. My best experience is to create WEB UI, IOT, and deploy web applications using cloud infrastructure.",
+    "I turn electronics ideas into real, working products — for individuals, startups, and businesses.",
   avatar_image_path: "projects_image.svg",
 };
 

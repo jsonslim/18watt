@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import Header from "../../components/header/Header.js";
 import Footer from "../../components/footer/Footer.js";
-import Button from "../../components/button/Button.js";
 
 import "./Impressum.css";
 

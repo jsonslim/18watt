@@ -2,7 +2,7 @@
   "private": true,
   "name": "sergeytarasovshow",
   "version": "0.1.0",
-  "homepage": "https://jsonslim.github.io/18watt/",
+  "homepage": "https://18watt.de/",
   "scripts": {
     "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",

@@ -21,15 +21,9 @@ export default class Main extends Component {
       <Router>
         <Switch>
           <Route
-            path="/sergeytarasovshow"
+            path="/"
             exact
-            render={(props) =>
-              settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
-              ) : (
-                <Home {...props} theme={this.props.theme} />
-              )
-            }
+            render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
             path="/home"
